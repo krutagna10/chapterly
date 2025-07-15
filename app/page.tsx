@@ -1,10 +1,12 @@
-import { ModeToggle } from "@/components/mode-toggle";
+import Header from "@/components/header";
 
 export default function Home() {
   return (
     <div>
-      <h1>React Shadcn Template</h1>
-      <ModeToggle />
+      <Header />
+      <main>
+        <h1>Hello</h1>
+      </main>
     </div>
   );
 }
